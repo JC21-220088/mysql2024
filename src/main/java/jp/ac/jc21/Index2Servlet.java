@@ -58,7 +58,7 @@ public class Index2Servlet extends HttpServlet {
 			
 			request.setAttribute("result", result);
 			RequestDispatcher rd =
-					request.getRequestDispatcher("/index2.jsp");
+					request.getRequestDispatcher("/index3.jsp");
 			rd.forward(request, response);
 
 		} catch (SQLException e) {
